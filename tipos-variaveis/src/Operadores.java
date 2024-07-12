@@ -1,13 +1,14 @@
-public class Operadores{
+public class Operadores {
 
     public static void main(String[] args) {
+        int a, b;
 
-        boolean variavel = false;
+        a = 6;
+        b = 6;
 
-        variavel = !variavel;
+        String resultado = a == b ? "verdadeiro" : "Falso";
 
-        System.out.println(!variavel);
+        System.out.println(resultado);
 
-        System.out.println(variavel);
     }
 }
