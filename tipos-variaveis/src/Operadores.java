@@ -4,14 +4,9 @@ public class Operadores{
 
         int numero = 5;
 
-        numero = -numero;
+        System.out.println(++numero);
 
-        System.out.println(numero);
-
-        numero *= -1;
-
-        System.out.println(numero);
-
+        System.out.println(--numero);
 
     }
 }
