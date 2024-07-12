@@ -3,9 +3,9 @@ public class Operadores {
     public static void main(String[] args) {
         
         String nome1 = "Gustavo";
-        String nome2 = "Gustavo";
+        String nome2 = new String("Gustavo");
 
-        System.out.println(nome1==nome2);
+        System.out.println(nome1.equals(nome2));
 
         int n1 = 1;
         int n2 = 2;
