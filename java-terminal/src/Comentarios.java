@@ -1,5 +1,10 @@
+
 public class Comentarios {
     public static void main(String [] args){
+        Calculadora cal = new Calculadora();
+
+        System.out.println(cal.somar(2, 2));
+        
         //Olá, eu sou um comentário em uma única 
 
         /*
