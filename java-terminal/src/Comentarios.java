@@ -16,6 +16,8 @@ public class Comentarios {
      * a nível de documentação.
      * Que incrivel!
      */
+
+     /*javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java */
     public void metodo(){
         
     }

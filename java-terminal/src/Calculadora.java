@@ -27,7 +27,7 @@ public class Calculadora {
      * por isso eu abreviei o nome das variváveis
      * mas olha, ele tem a finalidade de somar ou multiplicar
      * dois números
-     */
+p     */
     public int somarMultiplicar(int n, int x, String m) {
         int r = 0; // r é igual ao resultado
         if (m == "M") // M = multiplicação
