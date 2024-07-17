@@ -1,6 +1,7 @@
 package poo.com.mastersoft.autodromo;
 
-public class Carro {
+public class Carro extends Veiculo{
+
     public void ligar(){
         conferirCambio();
         verificarCombustivel();
@@ -12,4 +13,5 @@ public class Carro {
     private void conferirCambio(){
         System.out.println("Conferido cambio em P");
     }
+    
 }
